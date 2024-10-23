@@ -5,6 +5,6 @@ public class GroupGenZ {
      */
     public String tweet()
     {
-        return String.format("%s says it works!", this.getClass().getName());
+        return String.format("%s: says it works!", this.getClass().getName());
     }
 }
