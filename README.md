@@ -10,7 +10,9 @@ We will run this exercise in groups. Groups can choose a number or a name.
 First fork this repository on GitHub into your namespace and then clone the fork to your computer.
 
 ## Part B: Modify and commit
-Before we do any modification, we create a new branch and switch to it - this is a good reflex and a good practice. On the new branch add a file group-X.py where X is your group number or group name, e.g. group-17.py. Add only one file per group. (Why? - if you are adventurous, add both a file with the same name to see what happens)
+Before we do any modification, we create a new branch and switch to it - this is a good reflex and a good practice. On the new branch add a new file like: GroupGenZ.java.
+
+if you are adventurous, add a file with the same name as a other group to see what happens.
 
 This file should contain a function called tweet() which returns a string of maximum 280 characters (Twitter):
 ```
@@ -19,13 +21,14 @@ This file should contain a function called tweet() which returns a string of max
         return String.format("%s says this is great!", this.getClass().getName());
     }
 ```
-The file Main.java must be updated to call your tweet() functions defined in your new file.
+The file Main.java must be updated to call your tweet() method defined in your new file.
 
 Test it before you commit your change:
 ```
 run Main.main();
 ```
 group XX says: please replace this boring sentence with something more fun
+
 If it works, commit the change.
 
 ## Part C: Push your changes to the fork
