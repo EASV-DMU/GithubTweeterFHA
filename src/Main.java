@@ -30,5 +30,8 @@ public class Main {
         //Add your Group tweet classes and call your tweets:
         System.out.println( BLACK_BOLD + new GroupExtraordinaire().tweet() );
 
+        GroupGenZ ggz = new GroupGenZ();
+        System.out.println(PURPLE_BOLD+ggz.tweet());
+
     }
 }
