@@ -33,5 +33,8 @@ public class Main {
         GroupGenZ ggz = new GroupGenZ();
         System.out.println(PURPLE_BOLD+ggz.tweet());
 
+        BoomerHumor bh= new BoomerHumor();
+        System.out.println( PURPLE_BOLD+bh.tweet());
+
     }
 }
