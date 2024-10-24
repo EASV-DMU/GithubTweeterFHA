@@ -33,7 +33,13 @@ public class Main {
         GroupGenZ ggz = new GroupGenZ();
         System.out.println(PURPLE_BOLD+ggz.tweet());
 
+        
         GroupBoomer gb = new GroupBoomer();
         System.out.println(YELLOW_BOLD+gb.tweet());
+
+
+        GroupGenAlpha gga = new GroupGenAlpha();
+        System.out.println(PURPLE_BOLD+gga.tweet());
+
     }
 }
