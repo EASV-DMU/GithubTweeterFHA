@@ -69,5 +69,8 @@ public class Main {
         GroupB gb = new GroupB();
         System.out.println(YELLOW_BOLD+gb.tweet());
 
+        Frank frank = new Frank();
+        System.out.println(CYAN_BOLD+frank.tweet());
+
     }
 }
