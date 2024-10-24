@@ -56,5 +56,8 @@ public class Main {
         MB mb = new MB();
         System.out.println(YELLOW_BOLD+mb.tweet());
 
+        BoomerHumor bh= new BoomerHumor();
+        System.out.println( PURPLE_BOLD+bh.tweet());
+
     }
 }
