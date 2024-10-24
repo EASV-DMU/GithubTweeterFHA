@@ -33,5 +33,7 @@ public class Main {
         GroupGenZ ggz = new GroupGenZ();
         System.out.println(PURPLE_BOLD+ggz.tweet());
 
+        MyTweet newTweet = new MyTweet();
+        System.out.println(PURPLE_BOLD+newTweet.tweet());
     }
 }
