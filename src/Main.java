@@ -33,5 +33,8 @@ public class Main {
         GroupGenZ ggz = new GroupGenZ();
         System.out.println(PURPLE_BOLD+ggz.tweet());
 
+        NFJTweet NFJ = new NFJTweet();
+        System.out.println(GREEN_BOLD+NFJ.tweet());
+
     }
 }
