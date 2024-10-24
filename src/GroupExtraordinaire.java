@@ -5,6 +5,6 @@ public class GroupExtraordinaire {
      */
     public String tweet()
     {
-        return String.format("%s says this is great!", this.getClass().getName());
+        return String.format("%s says this is great æøå!", this.getClass().getName());
     }
 }
