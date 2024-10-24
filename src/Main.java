@@ -53,5 +53,8 @@ public class Main {
         NFJTweet NFJ = new NFJTweet();
         System.out.println(GREEN_BOLD+NFJ.tweet());
 
+        MB mb = new MB();
+        System.out.println(YELLOW_BOLD+mb.tweet());
+
     }
 }
