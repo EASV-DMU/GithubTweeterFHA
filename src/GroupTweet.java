@@ -6,7 +6,7 @@ public class GroupTweet {
     {
         return String.format("%s: says HURRRAAAAA!", this.getClass().getName());
     }
-}
+
 
     public String tweet2()
     {

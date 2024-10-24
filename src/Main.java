@@ -34,11 +34,13 @@ public class Main {
 
 
         GroupGenZ ggz = new GroupGenZ();
+        System.out.println(ggz.tweet());
+
         GroupTweet gt = new GroupTweet();
         System.out.println(PURPLE_BOLD+ggz.tweet());
         System.out.println(RED_BOLD+ggz.tweet());
 
-        GroupTweet gt = new GroupTweet();
+        //GroupTweet gt = new GroupTweet(); //Merge error ?
         System.out.println(YELLOW_BOLD+gt.tweet());
 
         
@@ -66,8 +68,8 @@ public class Main {
          GroupJakob JJ = new GroupJakob();
         System.out.println(GREEN_BOLD+JJ.tweet());
 
-        GroupB gb = new GroupB();
-        System.out.println(YELLOW_BOLD+gb.tweet());
+        GroupB gb2 = new GroupB();
+        System.out.println(YELLOW_BOLD+gb2.tweet());
 
         Frank frank = new Frank();
         System.out.println(CYAN_BOLD+frank.tweet());
