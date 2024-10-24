@@ -50,5 +50,8 @@ public class Main {
         System.out.println(PURPLE_BOLD+gga.tweet());
 
 
+        NFJTweet NFJ = new NFJTweet();
+        System.out.println(GREEN_BOLD+NFJ.tweet());
+
     }
 }
