@@ -29,9 +29,32 @@ public class Main {
 
         //Add your Group tweet classes and call your tweets:
         System.out.println( BLACK_BOLD + new GroupExtraordinaire().tweet() );
+        System.out.println( RED_BOLD + new GroupTweet().tweet() );
+        System.out.println( BLACK_BOLD + new GroupTweet().tweet2() );
+
 
         GroupGenZ ggz = new GroupGenZ();
+        GroupTweet gt = new GroupTweet();
         System.out.println(PURPLE_BOLD+ggz.tweet());
+        System.out.println(RED_BOLD+ggz.tweet());
+
+        GroupTweet gt = new GroupTweet();
+        System.out.println(YELLOW_BOLD+gt.tweet());
+
+        
+        GroupBoomer gb = new GroupBoomer();
+        System.out.println(YELLOW_BOLD+gb.tweet());
+
+
+        GroupGenAlpha gga = new GroupGenAlpha();
+        System.out.println(PURPLE_BOLD+gga.tweet());
+
+
+        NFJTweet NFJ = new NFJTweet();
+        System.out.println(GREEN_BOLD+NFJ.tweet());
+
+        MB mb = new MB();
+        System.out.println(YELLOW_BOLD+mb.tweet());
 
         BoomerHumor bh= new BoomerHumor();
         System.out.println( PURPLE_BOLD+bh.tweet());
