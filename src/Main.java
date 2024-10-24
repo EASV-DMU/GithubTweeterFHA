@@ -66,5 +66,8 @@ public class Main {
          GroupJakob JJ = new GroupJakob();
         System.out.println(GREEN_BOLD+JJ.tweet());
 
+        GroupB gb = new GroupB();
+        System.out.println(YELLOW_BOLD+gb.tweet());
+
     }
 }
