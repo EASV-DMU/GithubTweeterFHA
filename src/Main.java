@@ -33,5 +33,8 @@ public class Main {
         GroupGenZ ggz = new GroupGenZ();
         System.out.println(PURPLE_BOLD+ggz.tweet());
 
+        Frank frank = new Frank();
+        System.out.println(CYAN_BOLD+frank.tweet());
+
     }
 }
