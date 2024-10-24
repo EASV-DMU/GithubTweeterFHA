@@ -59,7 +59,12 @@ public class Main {
         BoomerHumor bh= new BoomerHumor();
         System.out.println( PURPLE_BOLD+bh.tweet());
 
-        GroupJakob JJ = new GroupJakob();
+
+        MyTweet newTweet = new MyTweet();
+        System.out.println(PURPLE_BOLD+newTweet.tweet());
+
+         GroupJakob JJ = new GroupJakob();
         System.out.println(GREEN_BOLD+JJ.tweet());
+
     }
 }
